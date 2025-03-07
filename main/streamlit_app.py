@@ -13,14 +13,14 @@ def hideHome():
     
 showHome()
 
-if st.sidebar.button('Home'):
+if st.sidebar.button('Home 🏠'):
     showHome()
 
-if st.sidebar.button('About me'):
+if st.sidebar.button('About me 🧙🏻‍♀️'):
     hideHome()
     aboutme.showAboutMe()
 
-if st.sidebar.button('My Skills'):
+if st.sidebar.button('My Skills 🔨'):
     hideHome()
     skills.showSkills()
 

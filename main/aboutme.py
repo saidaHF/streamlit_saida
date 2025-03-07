@@ -30,7 +30,7 @@ def showAboutMe():
 
         When I’m not coding, you can find me indulging in my other passions:
         - 🌌 **Physics** and **Astronomy** — I love exploring the mysteries of the universe.
-        - 🐾 **Animals** — They’re a constant source of joy and inspiration.
+        - 🐾 **Animals** — I have a dog (Tala 🐶) and two cats (Galileo 🐱 and Saphira 🐱).
         - 🍳 **Cooking** — I’m always experimenting with new recipes, so feel free to ask me for a tasty dish recommendation!
 
         I’m excited about the possibility of applying my skills to work on projects that make an impact in **Big Data** and **AI**.
