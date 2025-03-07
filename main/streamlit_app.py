@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 # Get the absolute path to the image dynamically
-image_path = Path(".streamlit/resources/saida_dibujo.jpg")
+image_path = Path("main/resources/saida_dibujo.png")
 
 
 st.title("Welcome to my profile!!!")
