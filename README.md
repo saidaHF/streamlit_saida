@@ -1,6 +1,6 @@
 # Streamlit Saida
 
-Welcome to **Streamlit Saida**! This is a simple Streamlit application.
+Welcome to **Streamlit Saida**! This is a simple Streamlit application to create my profile 🧙🏻‍♀️
 
 ## 🚀 Getting Started
 
@@ -29,6 +29,11 @@ Then, activate it:
 ```powershell
 Set-ExecutionPolicy Unrestricted -Scope Process
 myenv\Scripts\Activate.ps1
+```
+
+For desactivate the environment execute:
+```
+deactivate.bat
 ```
 
 ### 3️⃣ Install Dependencies
