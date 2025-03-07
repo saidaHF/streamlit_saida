@@ -6,6 +6,7 @@ from pathlib import Path
 # Get the absolute path to the image dynamically
 image_path = Path(".streamlit/resources/saida_dibujo.jpg")
 
+
 st.title("Welcome to my profile!!!")
 
 st.markdown("\n\n")
