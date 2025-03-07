@@ -1,7 +1,15 @@
 import streamlit as st
 import skills
-import prueba
+import websites
 import aboutme
+import os
+
+
+current_dir = os.path.dirname(__file__)
+css_file = os.path.join(current_dir, 'assets', 'styles.css')
+
+with open(css_file) as f:
+    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 initial_content = st.empty() 
 
@@ -26,5 +34,4 @@ if st.sidebar.button('My Skills 🔨'):
 
 if st.sidebar.button('Websites'):
     hideHome()
-    prueba.showPrueba()
-
+    websites.showWebSites()

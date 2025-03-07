@@ -1,0 +1,25 @@
+/* Menu Buttons */
+button {
+    background-color: #92bb93 !important;  /* Fondo verde */
+    color: white !important;  /* Color del texto */
+    padding: 10px 20px;
+    border: 2px solid black !important;  /* Borde negro */
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;  /* Transiciones suaves */
+}
+
+button:hover {
+    background-color: #7e9e7e !important;  /* Fondo verde más oscuro cuando el ratón pasa */
+    border-color: black !important;  /* Mantener borde negro */
+}
+
+button:focus {
+    outline: none;  /* Elimina el borde que aparece cuando el botón está enfocado */
+}
+
+button:active {
+    background-color: #6c9b6a !important;  /* Fondo más oscuro cuando el botón es presionado */
+    border-color: black !important;  /* Mantener borde negro */
+}
