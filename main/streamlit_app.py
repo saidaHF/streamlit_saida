@@ -4,6 +4,7 @@ import websites
 import aboutme
 import os
 
+from pathlib import Path
 
 current_dir = os.path.dirname(__file__)
 css_file = os.path.join(current_dir, 'assets', 'styles.css')
@@ -14,7 +15,10 @@ with open(css_file) as f:
 initial_content = st.empty() 
 
 def showHome():
-    initial_content.write("¡Bienvenido! Este es el contenido inicial que desaparecerá al hacer clic en un menú.")
+    initial_content.write("Welcome! We're under construction, sorry")
+
+    image_path = Path("main/resources/funny_image.gif")
+    st.image(str(image_path), clamp=True)
 
 def hideHome():
     initial_content.empty()
