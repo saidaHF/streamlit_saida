@@ -1,1 +1,4 @@
 myenv/
+/main/__pycache__/
+
+
