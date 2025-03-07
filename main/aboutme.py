@@ -32,6 +32,7 @@ def showAboutMe():
         - 🌌 **Physics** and **Astronomy** — I love exploring the mysteries of the universe.
         - 🐾 **Animals** — I have a dog (Tala 🐶) and two cats (Galileo 🐱 and Saphira 🐱).
         - 🍳 **Cooking** — I’m always experimenting with new recipes, so feel free to ask me for a tasty dish recommendation!
+        - 🎨 **Drawing** — I absolutely love to draw in my free time. Whether it’s digital or traditional art, it’s my way of expressing creativity and relaxing.
 
         I’m excited about the possibility of applying my skills to work on projects that make an impact in **Big Data** and **AI**.
         """)
